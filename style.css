@@ -1,0 +1,40 @@
+html {
+  -webkit-app-region: drag;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+}
+
+body {
+  overflow:hidden;
+  margin: 0;
+  padding: 10px;
+}
+
+
+#drop {
+  border-radius: 10px;
+  border: 5px dashed #CCC;
+  text-align: center;
+  color: #CCC;
+  vertical-align: middle;
+  font-size: 25px;
+  line-height: 300px;
+  width: 300px;
+  height: 300px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+#drop.hover{
+  color: #FF6500;
+  border-color: #FF6500;
+}
+
+#drop.hover img{
+  opacity: 0.2;
+}
